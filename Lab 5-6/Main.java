@@ -9,7 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Enterprise enterprise = new Enterprise();
 
-        FillingWithData(enterprise);
+        FillingWithData(enterprise); //Заповнення класів даними
 
         while (true) {
             System.out.println("Меню :");
